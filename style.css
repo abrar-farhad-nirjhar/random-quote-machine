@@ -1,0 +1,48 @@
+body{
+    background-color: cornflowerblue;
+    
+}
+
+.box{
+    background-color: white;
+    min-height: 300px;
+    top: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+@media (min-width: 576px) { 
+
+    .box{
+        width: 20%;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .box{
+        width: 70%;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    .box{
+        width: 50%;
+    }
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .box{
+        width: 50%;
+    }
+    
+ }
