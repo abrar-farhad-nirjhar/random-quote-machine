@@ -28,15 +28,17 @@ function dothework(){
     console.log(color)
 
     document.getElementsByTagName('body')[0].style.backgroundColor = color
+    
     document.getElementById('quote-box').style.color = color
-
+    document.getElementById('tweet-icon').style.color = color
     document.getElementById('new-quote').style.backgroundColor = color
+
 
     quotes.then((data)=>{
         let quote_text_author = data.quotes[Math.floor(Math.random() * data.quotes.length)]
         console.log(quote_text_author)
 
-        document.getElementById('text').innerHTML = quote_text_author.quote
+        document.getElementById('text').innerHTML += quote_text_author.quote
         document.getElementById('author').innerHTML = '- '+ quote_text_author.author
     })
 }
