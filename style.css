@@ -1,7 +1,9 @@
 body{
     background-color: cornflowerblue;
-    transition-duration: 1.5s;
+    transition-duration: .8s;
     /* transition-delay: .5s; */
+    height: auto;
+
     
 }
 
@@ -19,13 +21,13 @@ body{
 
 
     padding: 30px;
-    font-size: 30px;
-    transition-duration: 1.5s;
+    font-size: 20px;
+    transition-duration: .8s;
 
 }
 
 #text{
-    transition-duration: 1.5s;
+    transition-duration: .8s;
 }
 
 #new-quote{
@@ -36,24 +38,25 @@ body{
     border-radius: 5px;
     float: right;
     margin-top: 4px;
-    transition-duration: 1.5s;
+    transition-duration: .8s;
+    outline: none;
 }
 
 #tweet-quote{
     float: left;
-    transition-duration: 1.5s;
+    transition-duration: .8s;
 }
 
 #author{
     display: flex;
     flex-direction: row-reverse;
-    transition-duration: 1.5s;
+    transition-duration: .8s;
 }
 
 #buttons{
     display: flex;
     flex-direction: row;
-    transition-duration: 1.5s;
+    transition-duration: .8s;
     /* justify-content: space-between; */
 }
 
