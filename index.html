@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Random Quote Machine</title>
 </head>
-<body>
-    
 
-    <div class="shadow-lg box">
-        
+<body>
+
+
+    <div class="shadow-lg" id="quote-box">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="text"></div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div id="author"></div>
+                </div>
+            </div>
+            <a id="tweet-quote" href="twitter.com/intent/tweet">Tweet tweety bird</a>
+
+            <button id="new-quote">New Quote</button>
+        </div>
     </div>
 
 
@@ -19,5 +38,8 @@
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/3e832bd28a.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
