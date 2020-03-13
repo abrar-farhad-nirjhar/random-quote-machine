@@ -2,20 +2,35 @@ body{
     background-color: cornflowerblue;
     transition-duration: .8s;
     /* transition-delay: .5s; */
-    height: auto;
+    
+
+
 
     
+}
+
+i{
+    padding: 0px;
+}
+
+#body-container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: auto; */
+
 }
 
 #quote-box{
     background-color: white;
     min-height: 300px;
-    top: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    /* top: 50%; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* margin-right: -50%; */
+    /* transform: translate(-50%, -50%); */
     border: 1px solid white;
     border-radius: 3px;
 
@@ -33,11 +48,11 @@ body{
 #new-quote{
     border: none;
     color: white;
-    padding: 11px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 11px;
     border-radius: 5px;
     float: right;
-    margin-top: 4px;
+    margin-top: 3px;
     transition-duration: .8s;
     outline: none;
 }
