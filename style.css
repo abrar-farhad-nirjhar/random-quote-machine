@@ -2,35 +2,20 @@ body{
     background-color: cornflowerblue;
     transition-duration: .8s;
     /* transition-delay: .5s; */
-    
-
-
-
-    
-}
-
-i{
-    padding: 0px;
-}
-
-#body-container{
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* vertical-align: auto; */
 
+    
 }
 
 #quote-box{
     background-color: white;
     min-height: 300px;
-    /* top: 50%; */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* margin-right: -50%; */
-    /* transform: translate(-50%, -50%); */
+    top: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     border: 1px solid white;
     border-radius: 3px;
 
@@ -43,18 +28,20 @@ i{
 
 #text{
     transition-duration: .8s;
+    font-size: 30px;
 }
 
 #new-quote{
     border: none;
     color: white;
-    padding: 10px;
-    font-size: 11px;
+    padding: 10.5px;
+    font-size: 10px;
     border-radius: 5px;
     float: right;
-    margin-top: 3px;
+    margin-top: 2px;
     transition-duration: .8s;
     outline: none;
+    
 }
 
 #tweet-quote{
@@ -77,6 +64,7 @@ i{
 
 #last{
     /* display: inline-block; */
+    margin-top: auto;
 }
 @media (max-width: 576px) { 
 
